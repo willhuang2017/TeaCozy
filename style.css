@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid seashell;
+  height: 69px;
+}
+
+header img {
+  margin: 0 0 0 10px;
+  height: 50px;
+}
+
+header nav li {
+  display: inline-flex;
+  justify-content: flex-end;
+
+  margin: 0 10px 0 0;
+}
+
+header nav li a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header nav li a:hover {
+  color: cyan;
+}
+
+/* Mission Section */
+#mission {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+}
+
+#mission div.mission-container {
+  background: black;
+  width: 100%;
+}
+
+#mission div.mission-container h2 {
+  margin: 10px 0px 20px 0px;
+}
+
+#mission div.mission-container h4 {
+  margin: 20px 0px 10px 0px;
+}
+
+/* Featured Section */
+#featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 40px auto 60px;
+  width: 1200px;
+}
+
+#featured h2 {
+  margin: 40px auto 0px;
+}
+
+#featured .item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+#featured .item-container .item img {
+  margin: 0px 10px;
+  width: 300px;
+  height: 200px;
+}
+
+#featured .item-container .item h4 {
+  margin: 10px 0 20px;
+}
+
+/* Locations Section */
+#locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+  width: 1200px;
+  height: 500px;
+}
+
+#locations .location-container {
+  display: flex;
+}
+
+#locations .location-container .location {
+  background-color: black;
+  margin: 0 20px;
+  width: 300px;
+}
+
+#locations h2 {
+  margin: 0 0 15px 0;
+}
+
+#locations .location-container .location h3 {
+  margin: 30px 0 40px 0;
+}
+
+#locations .location-container .location h4 {
+  margin: 0 0 40px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
+}
+
+footer h2 {
+  margin: 10px auto;
+}
+
+.copyright {
+  text-align: left;
+  margin: 0 20px 0 0;
+}
